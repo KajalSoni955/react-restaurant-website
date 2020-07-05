@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Navbar, NavbarBrand } from 'reactstrap';
-
+import Menu from './components/MenuComponent';
 class App extends React.Component {
   render() {
     return (
@@ -14,8 +14,11 @@ class App extends React.Component {
           </div>
         </Navbar>
       </div>
+
+      <Menu />
     );
   }
 }
+
 
 export default App;
